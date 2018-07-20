@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customLabels>
+        <label>my translationhi</label>
+        <name>MuCuLabl</name>
+    </customLabels>
+    <customLabels>
+        <label>dasdasdsads10000250620182018</label>
+        <name>Test_Label</name>
+    </customLabels>
+    <customLabels>
+        <label>This is germen trans 04072018 na23 my</label>
+        <name>customLabel1</name>
+    </customLabels>
+</Translations>

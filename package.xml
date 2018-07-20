@@ -1,8 +1,181 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>41.0</version>
+<?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>A0</members>
+        <members>TestMerge</members>
+        <members>TestMerge1</members>
         <name>ApexClass</name>
     </types>
+    <types>
+        <members>Account.AccountSource</members>
+        <members>Account.Active__c</members>
+        <members>Account.CleanStatus</members>
+        <members>Account.CustomerPriority__c</members>
+        <members>Account.Industry</members>
+        <members>Account.Ownership</members>
+        <members>Account.Rating</members>
+        <members>Account.SLA__c</members>
+        <members>Account.Type</members>
+        <members>Account.UpsellOpportunity__c</members>
+        <members>AccountContactRole.Role</members>
+        <members>Asset.Status</members>
+        <members>AssetRelationship.RelationshipType</members>
+        <members>Campaign.Status</members>
+        <members>Campaign.Type</members>
+        <members>CampaignMember.LeadSource</members>
+        <members>CampaignMember.Salutation</members>
+        <members>CampaignMember.Status</members>
+        <members>Case.Origin</members>
+        <members>Case.PotentialLiability__c</members>
+        <members>Case.Priority</members>
+        <members>Case.Product__c</members>
+        <members>Case.Reason</members>
+        <members>Case.SLAViolation__c</members>
+        <members>Case.Status</members>
+        <members>Case.Type</members>
+        <members>CaseContactRole.Role</members>
+        <members>Contact.CleanStatus</members>
+        <members>Contact.LeadSource</members>
+        <members>Contact.Level__c</members>
+        <members>ContentVersion.SharingOption</members>
+        <members>ContentVersion.SharingPrivacy</members>
+        <members>Contract.OwnerExpirationNotice</members>
+        <members>Contract.Status</members>
+        <members>ContractContactRole.Role</members>
+        <members>DandBCompany.CompanyCurrencyIsoCode</members>
+        <members>DandBCompany.CurrencyCode</members>
+        <members>DandBCompany.EmployeesHereReliability</members>
+        <members>DandBCompany.EmployeesTotalReliability</members>
+        <members>DandBCompany.GeoCodeAccuracy</members>
+        <members>DandBCompany.ImportExportAgent</members>
+        <members>DandBCompany.LegalStatus</members>
+        <members>DandBCompany.LocationStatus</members>
+        <members>DandBCompany.MarketingPreScreen</members>
+        <members>DandBCompany.MarketingSegmentationCluster</members>
+        <members>DandBCompany.MinorityOwned</members>
+        <members>DandBCompany.NationalIdType</members>
+        <members>DandBCompany.OutOfBusiness</members>
+        <members>DandBCompany.OwnOrRent</members>
+        <members>DandBCompany.PublicIndicator</members>
+        <members>DandBCompany.SalesVolumeReliability</members>
+        <members>DandBCompany.SmallBusiness</members>
+        <members>DandBCompany.Subsidiary</members>
+        <members>DandBCompany.WomenOwned</members>
+        <members>EmailMessage.Status</members>
+        <members>EmailMessage.ValidatedFromAddress</members>
+        <members>Event.EventSubtype</members>
+        <members>Event.ShowAs</members>
+        <members>FullObject1__c.FullObject1_id__c</members>
+        <members>FullObject1__c.FullObject1_name__c</members>
+        <members>FullObject2__c.FullObject2_id__c</members>
+        <members>FullObject2__c.FullObject2_name__c</members>
+        <members>Lead.CleanStatus</members>
+        <members>Lead.Industry</members>
+        <members>Lead.LeadSource</members>
+        <members>Lead.Primary__c</members>
+        <members>Lead.ProductInterest__c</members>
+        <members>Lead.Rating</members>
+        <members>Lead.Status</members>
+        <members>Lease__c.Lease_Renewal__c</members>
+        <members>Macro.StartingContext</members>
+        <members>Opportunity.DeliveryInstallationStatus__c</members>
+        <members>Opportunity.LeadSource</members>
+        <members>Opportunity.StageName</members>
+        <members>Opportunity.Type</members>
+        <members>OpportunityContactRole.Role</members>
+        <members>Order.Type</members>
+        <members>Product2.Family</members>
+        <members>Product2.QuantityUnitOfMeasure</members>
+        <members>QuickText.Category</members>
+        <members>Solution.Status</members>
+        <members>Task.CallType</members>
+        <members>Task.Priority</members>
+        <members>Task.RecurrenceRegeneratedType</members>
+        <members>Task.Status</members>
+        <members>Task.TaskSubtype</members>
+        <members>UserProvisioningRequest.ApprovalStatus</members>
+        <members>UserProvisioningRequest.Operation</members>
+        <members>UserProvisioningRequest.State</members>
+        <members>wellsforgoChildObj__c.AutorabitExtId__c</members>
+        <members>wellsforgoChildObj__c.lookupField__c</members>
+        <members>wellsforgoChildObj__c.userLookup__c</members>
+        <members>wellsforgoParentObj__c.AutorabitExtId__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>MuCuLabl</members>
+        <members>Test_Label</members>
+        <members>customLabel1</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
+        <members>FullObject1__c</members>
+        <members>FullObject2__c</members>
+        <members>Layout__c</members>
+        <members>Lease__c</members>
+        <members>RecordTypeObj__c</members>
+        <members>wellsforgoChildObj__c</members>
+        <members>wellsforgoParentObj__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>wellsforgoChildObj__c</members>
+        <members>wellsforgoParentObj__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>FullObject1__c-FullObject1 Layout</members>
+        <members>FullObject2__c-FullObject2 Layout</members>
+        <members>Layout__c-Layout Layout</members>
+        <members>Layout__c-Lease Layout</members>
+        <members>Layout__c-Office Lease Layout</members>
+        <members>Layout__c-Retail Lease Layout</members>
+        <members>Lease__c-Lease Layout</members>
+        <members>RecordTypeObj__c-RecordTypeObj Layout</members>
+        <members>wellsforgoChildObj__c-wellsforgoChildObj Layout</members>
+        <members>wellsforgoParentObj__c-wellsforgoParentObj Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>wellsforgoChildObj__c.All</members>
+        <members>wellsforgoParentObj__c.All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>MaruthiPermission</members>
+        <members>MaruthiPermission1</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <members>FullProfile</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>FullProfile_profilePasswordPolicy1530611981309</members>
+        <name>ProfilePasswordPolicy</name>
+    </types>
+    <types>
+        <members>FullProfile_profileSessionSetting1530611981379</members>
+        <name>ProfileSessionSetting</name>
+    </types>
+    <types>
+        <members>RecordTypeObj__c.RecordType2</members>
+        <name>RecordType</name>
+    </types>
+    <types>
+        <members>FullObject1__c</members>
+        <members>FullObject2__c</members>
+        <members>Layout__c</members>
+        <members>Lease__c</members>
+        <members>RecordTypeObj__c</members>
+        <members>wellsforgoChildObj__c</members>
+        <members>wellsforgoParentObj__c</members>
+        <name>SharingRules</name>
+    </types>
+    <types>
+        <members>de</members>
+        <members>es</members>
+        <name>Translations</name>
+    </types>
+    <version>41.0</version>
 </Package>
