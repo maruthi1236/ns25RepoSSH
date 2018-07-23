@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>A0</members>
+        <members>A12</members>
+        <members>A2</members>
+        <members>A3</members>
         <members>TestMerge</members>
         <members>TestMerge1</members>
         <name>ApexClass</name>
@@ -77,6 +80,8 @@
         <members>Lead.Status</members>
         <members>Lease__c.Lease_Renewal__c</members>
         <members>Macro.StartingContext</members>
+        <members>ObjectMetaData__c.ObjectMetaData_id__c</members>
+        <members>ObjectMetaData__c.ObjectMetaData_name__c</members>
         <members>Opportunity.DeliveryInstallationStatus__c</members>
         <members>Opportunity.LeadSource</members>
         <members>Opportunity.StageName</members>
@@ -98,7 +103,11 @@
         <members>autoObject__c.auto_id__c</members>
         <members>autoObject__c.auto_name__c</members>
         <members>autoObject__c.auto_number__c</members>
+        <members>autoRabitObject__c.aR_ID__c</members>
+        <members>autoRabitObject__c.aR_Name__c</members>
         <members>autoRabitObject__c.uniqueNo__c</members>
+        <members>rabitObject__c.rabit_id__c</members>
+        <members>rabitObject__c.rabit_name__c</members>
         <members>wellsforgoChildObj__c.AutorabitExtId__c</members>
         <members>wellsforgoChildObj__c.lookupField__c</members>
         <members>wellsforgoChildObj__c.userLookup__c</members>
@@ -116,10 +125,18 @@
         <members>FullObject2__c</members>
         <members>Layout__c</members>
         <members>Lease__c</members>
+        <members>ObjectMetaData__c</members>
         <members>RecordTypeObj__c</members>
+        <members>autoObject__c</members>
+        <members>autoRabitObject__c</members>
+        <members>rabitObject__c</members>
         <members>wellsforgoChildObj__c</members>
         <members>wellsforgoParentObj__c</members>
         <name>CustomObject</name>
+    </types>
+    <types>
+        <members>maruthiCustomName</members>
+        <name>CustomPermission</name>
     </types>
     <types>
         <members>autoRabitObject__c</members>
@@ -135,9 +152,12 @@
         <members>Layout__c-Office Lease Layout</members>
         <members>Layout__c-Retail Lease Layout</members>
         <members>Lease__c-Lease Layout</members>
+        <members>ObjectMetaData__c-ObjectMetaData Layout</members>
         <members>RecordTypeObj__c-RecordTypeObj Layout</members>
         <members>Task-Task Layout</members>
+        <members>autoObject__c-autoObject Layout</members>
         <members>autoRabitObject__c-autoRabitObject Layout</members>
+        <members>rabitObject__c-rabitObject Layout</members>
         <members>wellsforgoChildObj__c-wellsforgoChildObj Layout</members>
         <members>wellsforgoParentObj__c-wellsforgoParentObj Layout</members>
         <name>Layout</name>
@@ -211,11 +231,19 @@
         <name>RecordType</name>
     </types>
     <types>
+        <members>Lead.TestSHRule</members>
+        <name>SharingOwnerRule</name>
+    </types>
+    <types>
         <members>FullObject1__c</members>
         <members>FullObject2__c</members>
         <members>Layout__c</members>
         <members>Lease__c</members>
+        <members>ObjectMetaData__c</members>
         <members>RecordTypeObj__c</members>
+        <members>autoObject__c</members>
+        <members>autoRabitObject__c</members>
+        <members>rabitObject__c</members>
         <members>wellsforgoChildObj__c</members>
         <members>wellsforgoParentObj__c</members>
         <name>SharingRules</name>
