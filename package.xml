@@ -1180,12 +1180,118 @@
         <name>SharingRules</name>
     </types>
     <types>
+        <members>AccountContactRole</members>
+        <members>AccountOwnership</members>
+        <members>AccountRating</members>
+        <members>AccountType</members>
+        <members>AssetStatus</members>
+        <members>CampaignMemberStatus</members>
+        <members>CampaignStatus</members>
+        <members>CampaignType</members>
+        <members>CaseContactRole</members>
+        <members>CaseOrigin</members>
+        <members>CasePriority</members>
+        <members>CaseReason</members>
+        <members>CaseStatus</members>
+        <members>CaseType</members>
+        <members>ContactRole</members>
+        <members>ContractContactRole</members>
+        <members>ContractStatus</members>
+        <members>EventSubject</members>
+        <members>EventType</members>
+        <members>FiscalYearPeriodName</members>
+        <members>FiscalYearPeriodPrefix</members>
+        <members>FiscalYearQuarterName</members>
+        <members>FiscalYearQuarterPrefix</members>
+        <members>IdeaMultiCategory</members>
+        <members>IdeaStatus</members>
+        <members>Industry</members>
+        <members>LeadSource</members>
+        <members>LeadStatus</members>
+        <members>OpportunityCompetitor</members>
+        <members>OpportunityStage</members>
+        <members>OpportunityType</members>
+        <members>OrderType</members>
+        <members>PartnerRole</members>
+        <members>Product2Family</members>
+        <members>QuickTextCategory</members>
+        <members>QuickTextChannel</members>
+        <members>Salutation</members>
+        <members>SolutionStatus</members>
+        <members>TaskPriority</members>
+        <members>TaskStatus</members>
+        <members>TaskSubject</members>
+        <members>TaskType</members>
+        <name>StandardValueSet</name>
+    </types>
+    <types>
+        <members>StaticReso1</members>
+        <members>StaticResource12251</members>
+        <members>StaticResource12251Images</members>
+        <members>StaticResource12251New</members>
         <members>StaticResourcesToday</members>
         <name>StaticResource</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>Asset</members>
+        <members>AugObjectFfFirs__c</members>
+        <members>AugObjectFfs__c</members>
+        <members>AugOn3s__c</members>
+        <members>AugOne1s__c</members>
+        <members>AugOne2s__c</members>
+        <members>AugOnes__c</members>
+        <members>AugTests__c</members>
+        <members>AugustTestPS__c</members>
+        <members>Campaign</members>
+        <members>Case</members>
+        <members>ComLayAss1s__c</members>
+        <members>ComLayAss2s__c</members>
+        <members>ComLayAss3s__c</members>
+        <members>ComLayAsss__c</members>
+        <members>Contact</members>
+        <members>ContentDocument</members>
+        <members>Contract</members>
+        <members>DeployTests__c</members>
+        <members>Event</members>
+        <members>FullObject1__c</members>
+        <members>FullObject2__c</members>
+        <members>Layout__c</members>
+        <members>Lead</members>
+        <members>Lease__c</members>
+        <members>NoNE1WS__c</members>
+        <members>NoNewMethod__c</members>
+        <members>ObjectMetaData__c</members>
+        <members>ObjectNoChangess_1__c</members>
+        <members>Opportunity</members>
+        <members>Order</members>
+        <members>RecordTypeObj__c</members>
+        <members>SCLobjects__c</members>
+        <members>SEAugObjectS__c</members>
+        <members>SixComObjects__c</members>
+        <members>Solution</members>
+        <members>Task</members>
+        <members>X2AugObjectF__c</members>
+        <members>X3August__c</members>
+        <members>augObj4s__c</members>
+        <members>autoObject__c</members>
+        <members>autoRabitObject__c</members>
+        <members>noChangess__c</members>
+        <members>rabitObject__c</members>
+        <members>wellsforgoChildObj__c</members>
+        <members>wellsforgoParentObj__c</members>
+        <name>TopicsForObjects</name>
     </types>
     <types>
         <members>de</members>
         <members>es</members>
         <name>Translations</name>
+    </types>
+    <types>
+        <members>Account.Billing</members>
+        <members>Campaign.ViewCampaignInfluenceReport</members>
+        <members>Case.UpsellCrosssellOpportunity</members>
+        <members>Opportunity.DeliveryStatus</members>
+        <name>WebLink</name>
     </types>
 </Package>
