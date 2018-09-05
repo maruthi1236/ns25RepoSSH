@@ -703,6 +703,8 @@
         <members>MacroInstruction</members>
         <members>NoNE1WS__c</members>
         <members>NoNewMethod__c</members>
+        <members>Nov1Obj__c</members>
+        <members>Nov2Obj__c</members>
         <members>ObjectMetaData__c</members>
         <members>ObjectNoChangess_1__c</members>
         <members>Opportunity</members>
