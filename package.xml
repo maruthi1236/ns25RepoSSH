@@ -25,6 +25,10 @@
         <name>AssignmentRules</name>
     </types>
     <types>
+        <members>Buttton</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
         <members>Case</members>
         <members>Lead</members>
         <name>AutoResponseRules</name>
