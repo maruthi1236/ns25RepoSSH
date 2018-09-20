@@ -711,6 +711,10 @@
         <members>NoNewMethod__c</members>
         <members>Nov1Obj__c</members>
         <members>Nov2Obj__c</members>
+        <members>ObjectCL3__c</members>
+        <members>ObjectCL5__c</members>
+        <members>ObjectCL6__c</members>
+        <members>ObjectCL7__c</members>
         <members>ObjectMetaData__c</members>
         <members>ObjectNoChangess_1__c</members>
         <members>Opportunity</members>
