@@ -87,11 +87,23 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>ChangePasswordController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ChangePasswordControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>TestMerge</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>TestMerge1</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>UatTesst</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <custom>false</custom>
@@ -114,6 +126,11 @@
         <editable>true</editable>
         <field>Account.AnnualRevenue</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.AutorabitExtId__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -264,6 +281,11 @@
         <editable>false</editable>
         <field>Account.YearStarted</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account_Specific_Product_Condition_debug__c.debug_field1__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -646,6 +668,16 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>ConflictObject1__c.ConfliField__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ConflictObject1__c.ConflictField2__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.AccountId</field>
         <readable>true</readable>
@@ -851,6 +883,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>CustomTestObj__c.FirstField__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Event.Description</field>
         <readable>true</readable>
@@ -909,6 +946,26 @@
         <editable>false</editable>
         <field>Idea.Status</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LabelCheck__c.LabelField__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LabelObject1__c.LabObj1Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LblObj3__c.lblObj3Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>LblObj4__c.LblObj4Field__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -1043,6 +1100,46 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Lease__c.Lease_Renewal__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ObjectCL6__c.FirstTest__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ObjectLbl1__c.ObjectLbl1_Field1__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ObjectLbl2__c.ObjectLbl2_Field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ObjectLbl5__c.Field11__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ObjectLbl5__c.Field12__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ObjectLbl5__c.Field13m__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ObjectLbl5__c.Field14__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ObjectLbl5__c.ObjectLbl5_Field__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1347,6 +1444,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>STcompactObjs__c.field1__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>SixComObjects__c.SiXFirst__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1394,6 +1496,26 @@
         <editable>true</editable>
         <field>Task.WhoId</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>TestObjs__c.PhoneNumber__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>UATOne__c.uatfirstfield__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>X5OctObj1__c.X5OctObjField1__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>X5OctObj2__c.Field5octObj__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -1459,6 +1581,12 @@
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Account_Specific_Product_Condition__c-Account_Specific_Product_Condition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Account_Specific_Product_Condition_debug__c-Account_Specific_Product_Condition_debug Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Asset-Asset Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -1517,6 +1645,12 @@
         <recordType>ComLayAsss__c.CompTypeLabelll</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>CommunityMemberLayout-Community Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ConflictObject1__c-ConflictObject1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Contact-Contact Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -1524,6 +1658,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Contract-Contract Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CustomTestObj__c-CustomTestObj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>DandBCompany-D%26B Company Layout</layout>
@@ -1556,7 +1693,28 @@
         <layout>Idea-Idea Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>LabelCheck__c-LabelCheck Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LabelObj2__c-LabelObj2 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LabelObject1__c-LabelObject1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LabelObject__c-LabelObject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Layout__c-Layout Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LblObj3__c-LblObj3 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LblObj4__c-LblObj4 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LblObjTest__c-LblObjTest Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Lead-Lead Layout</layout>
@@ -1568,10 +1726,49 @@
         <layout>Macro-Macro Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>MergeChekObj__c-MergeChekObj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>NoNE1WS__c-NoNE1W Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>NoNewMethod__c-NoNewMethod Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Nov1Obj__c-Nov1Obj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Nov2Obj__c-Nov2Obj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ObjTest__c-ObjTest Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ObjectCL1S__c-ObjectCL1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ObjectCL2__c-ObjectCL2 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ObjectCL3__c-ObjectCL3 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ObjectCL5__c-ObjectCL5 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ObjectCL6__c-ObjectCL6 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ObjectCL7__c-ObjectCL7 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ObjectLbl1__c-ObjectLbl1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ObjectLbl2__c-ObjectLbl2 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ObjectLbl5__c-ObjectLbl5 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ObjectMetaData__c-ObjectMetaData Layout</layout>
@@ -1617,6 +1814,9 @@
         <layout>SEAugObjectS__c-SEAugObject Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>STcompactObjs__c-STcompactObj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Scorecard-Scorecard Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -1639,6 +1839,36 @@
         <recordType>Task.task_diff_recordtype</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>TestObject11__c-TestObject11 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TestObject12__c-TestObject12 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TestObject13__c-TestObject13 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TestObject14__c-TestObject14 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TestObject15__c-TestObject15 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TestObjs__c-TestObj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TestRevision1__c-TestRevision1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TestRevision2__c-TestRevision2 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TestRevision__c-TestRevision Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UATOne__c-UATOne Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>User-User Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -1651,10 +1881,88 @@
         <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>X04SepObj1__c-04SepObj1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>X1OctObj1__c-1OctObj1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>X26Sep1__c-26Sep1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>X26Sep2__c-26Sep2 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>X26Sep3__c-26Sep3 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>X27Object__c-27Object Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>X27Sep1__c-27Sep1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>X27Sep2__c-27Sep2 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>X27Sep3__c-27Sep3 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>X28Sep1__c-28Sep1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>X2AugObjectF__c-2AugObjectF Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>X2OctObj2__c-2OctObj2 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>X3August__c-3August Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>X3OctObject1Dry__c-3OctObject1Dry Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>X3OctObject__c-3OctObject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>X4OctObj__c-4OctObj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>X5OctObj1__c-5OctObj1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>X5OctObj2__c-5OctObj2 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>X5OctObject__c-5OctObject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>X8Oct7__c-8Oct7 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>X8Oct8__c-8Oct8 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>X8Oct9OBJ__c-8Oct9OBJ Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>X8OctObj1__c-8OctObj1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>X8OctObj2__c-8OctObj2 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>X8OctObj3__c-8OctObj3 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>X8OctObj4__c-8OctObj4 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>X8OctObj5__c-8OctObj5 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>X8OctObj6__c-8OctObj6 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>augObj4s__c-augObj4 Layout</layout>
@@ -1664,6 +1972,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>autoRabitObject__c-autoRabitObject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>buildobj__c-buildobj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>noChangess__c-noChanges Layout</layout>
@@ -1677,6 +1988,7 @@
     <layoutAssignments>
         <layout>wellsforgoParentObj__c-wellsforgoParentObj Layout</layout>
     </layoutAssignments>
+    <loginHours/>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>false</allowDelete>
@@ -1828,6 +2140,14 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
+        <tab>LabelCheck__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>LabelObject__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>autoRabitObject__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -1936,6 +2256,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Gold Partner</userLicense>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ActivitiesAccess</name>
+    </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>AddDirectMessageMembers</name>
